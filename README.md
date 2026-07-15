@@ -1,22 +1,42 @@
-# Lucas Leitenberger Website
+# Lucas Leitenberger Website — Final Team Version
 
-Personal architecture and engineering recruiting website serving all of Pennsylvania and Ohio.
+This version includes:
 
-## Publish today
+- Lucas Leitenberger and Vy Truong team section
+- Green Key Resources affiliation
+- Pennsylvania and Ohio market coverage
+- Nationwide recruiting reach
+- LinkedIn profile links
+- Correct business email
+- Netlify-ready static files
 
-1. Open the GitHub repository `lucasleitenberger/redesign`.
-2. Choose **Add file → Upload files**.
-3. Upload everything inside this folder.
-4. Allow GitHub to replace the existing files.
-5. Click **Commit changes**.
+## Publish
+
+1. Open `lucasleitenberger/redesign` on GitHub.
+2. Select **Add file → Upload files**.
+3. Upload everything inside this extracted folder.
+4. Replace the existing files.
+5. Select **Commit changes**.
 6. Netlify will redeploy automatically.
 
-## Main files
+## Vy's headshot
 
-- `index.html`
-- `styles.css`
-- `script.js`
-- `assets/lucas-leitenberger.jpg`
-- `netlify.toml`
+Vy currently appears with an initials graphic. When you have her photo:
 
-Contact email: LLeitenberger@greenkeyllc.com
+1. Name it `vy-truong.jpg`.
+2. Add it to the `assets` folder.
+3. In `index.html`, replace:
+
+```html
+<div class="team-photo team-placeholder" aria-label="Vy Truong">
+  <span>VT</span>
+</div>
+```
+
+with:
+
+```html
+<div class="team-photo">
+  <img src="assets/vy-truong.jpg" alt="Vy Truong" />
+</div>
+```
