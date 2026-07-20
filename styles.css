@@ -257,3 +257,47 @@ footer span { opacity: .68; }
   .market-grid { grid-template-columns: 1fr; }
   footer { flex-direction: column; }
 }
+
+
+.hero-portraits {
+  min-height: 610px;
+}
+.hero-portraits .hero-image {
+  position: absolute;
+  object-fit: cover;
+  box-shadow: var(--shadow);
+}
+.hero-lucas {
+  width: 76%;
+  right: 0;
+  top: 0;
+  aspect-ratio: 4/5;
+  border-radius: 180px 180px 30px 30px;
+}
+.hero-vy {
+  width: 42%;
+  left: 0;
+  bottom: 10px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  border: 8px solid var(--cream);
+}
+.team-photo-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+.team-photo-pair img {
+  aspect-ratio: 4/5;
+  object-fit: cover;
+  border-radius: 28px;
+  box-shadow: var(--shadow);
+}
+@media (max-width: 950px) {
+  .hero-portraits { min-height: 540px; }
+}
+@media (max-width: 620px) {
+  .hero-portraits { min-height: 440px; }
+  .hero-vy { width: 46%; }
+  .team-photo-pair { gap: 10px; }
+}

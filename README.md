@@ -1,35 +1,30 @@
-# Lucas Leitenberger Website Redesign
+# Corrected Lucas Leitenberger Website
 
-## Before uploading to GitHub
+This package already includes the real uploaded images:
 
-Place your actual images in the `assets` folder using these exact filenames:
+- Lucas headshot
+- Vy headshot
+- Lucas family photo
+- Green Key Resources logo
 
-- `lucas-vy.jpg` — the photo of Lucas and Vy together
-- `lucas.jpg` — Lucas's individual photo
-- `vy.jpg` — Vy's individual photo
-- `green-key-logo.png` — the official Green Key Resources logo
-- `family.jpg` — Lucas's family photo
+There are no placeholder image files in this version.
 
-The included placeholder files make it easy to see which images are still needed.
+## Before uploading
 
-## Two details to update in `index.html`
+Open `index.html` and replace:
 
-Search for:
+- `YOUR-EMAIL@greenkeyllc.com` with Lucas's actual email
+- The generic Lucas LinkedIn URLs with Lucas's direct LinkedIn profile URL
 
-1. `YOUR-EMAIL@greenkeyllc.com` and replace it with Lucas's actual Green Key email.
-2. The generic Lucas LinkedIn links (`https://www.linkedin.com/`) and replace them with Lucas's direct profile URL.
+## GitHub upload
 
-Vy's LinkedIn link is already included.
-
-## Uploading to the repository
-
-Upload all of these items to the root of the GitHub repository:
+Delete the old website files from the repository, then upload:
 
 - `index.html`
 - `styles.css`
 - `script.js`
-- the entire `assets` folder
+- the complete `assets` folder
 
-Do not upload the ZIP file into the repository. Extract it first, then upload the files and folder.
+Commit the changes. Netlify should redeploy automatically.
 
-Netlify should automatically redeploy after the GitHub commit is completed.
+The design uses the individual Lucas and Vy portraits together because a separate photo of Lucas and Vy together was not included in the uploads.
