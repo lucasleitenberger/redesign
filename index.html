@@ -1,313 +1,133 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Lucas Leitenberger and Vy Truong recruit Architecture & Engineering talent across Pennsylvania and Ohio as part of Green Key Resources." />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Lucas Leitenberger connects architecture and engineering professionals with firms across Pennsylvania and Ohio." />
   <title>Lucas Leitenberger | Architecture & Engineering Recruiting</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="header">
-    <a class="brand" href="#top">
-      <span class="brand-initials">LL</span>
-      <span class="brand-copy">
-        <strong>Lucas Leitenberger</strong>
-        <small>Architecture & Engineering Recruiting</small>
-      </span>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Lucas Leitenberger home">
+      <span class="brand-mark">LL</span>
+      <span>Lucas Leitenberger</span>
     </a>
-
-    <button class="menu-button" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
-
-    <nav class="nav">
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
       <a href="#markets">Markets</a>
       <a href="#team">Team</a>
-      <a href="#expertise">Expertise</a>
-      <a href="#green-key">Green Key</a>
-      <a class="nav-cta" href="#contact">Connect</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <main id="top">
     <section class="hero">
-      <div class="hero-copy">
-        <p class="kicker">Pennsylvania + Ohio Architecture & Engineering Recruiting</p>
-        <h1>Local market knowledge. Honest recruiting. Long-term relationships.</h1>
-        <p class="hero-intro">
-          I help architecture and engineering firms across Pennsylvania and Ohio identify the people who can move their business forward.
-          Just as importantly, I help professionals make thoughtful career decisions that fit their goals, families, and future.
-        </p>
-        <div class="hero-buttons">
-          <a class="button dark" href="#contact">Start a Conversation</a>
-          <a class="button ghost" href="#markets">Explore Our Markets</a>
-        </div>
-
-        <div class="hero-stat-row">
-          <div><strong>PA</strong><span>Pittsburgh · Philadelphia · Lancaster · Harrisburg</span></div>
-          <div><strong>OH</strong><span>Columbus · Cleveland · Cincinnati</span></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Architecture + Engineering Recruiting</p>
+        <h1>Strong relationships.<br><em>Better career moves.</em></h1>
+        <p class="hero-text">I connect architecture and engineering professionals with firms across Pennsylvania and Ohio—bringing an honest, personal approach to every search.</p>
+        <div class="hero-actions">
+          <a class="button primary email-link" href="#contact">Start a conversation</a>
+          <a class="button secondary" href="#markets">Explore our markets</a>
         </div>
       </div>
-
-      <div class="hero-visual">
-        <div class="portrait portrait-lucas">
-          <img src="assets/lucas-bw.jpg" alt="Lucas Leitenberger" />
-        </div>
-        <div class="portrait portrait-vy">
-          <img src="assets/vy-bw.jpg" alt="Vy Truong" />
-        </div>
-        <div class="hero-label">
-          <strong>Lucas + Vy</strong>
-          <span>A dedicated Architecture & Engineering recruiting team at Green Key Resources</span>
-        </div>
-      </div>
+      <figure class="hero-image reveal">
+        <img src="assets/lucas-portrait.jpg" alt="Lucas Leitenberger" onerror="this.closest('figure').classList.add('missing-image')" />
+        <figcaption>Add your portrait as <strong>assets/lucas-portrait.jpg</strong></figcaption>
+      </figure>
     </section>
 
-    <section class="market-strip" aria-label="Primary recruiting markets">
-      <span>Pittsburgh</span><span>Philadelphia</span><span>Lancaster</span><span>Harrisburg</span>
-      <span>Columbus</span><span>Cleveland</span><span>Cincinnati</span>
+    <section class="intro-strip" aria-label="Key service points">
+      <span>Architecture</span><span>Engineering</span><span>Interior Design</span><span>Leadership Search</span>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">About me</p>
+        <h2>Recruiting built around people—not transactions.</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p>I have spent my career building relationships across the architecture and engineering community. My work is centered on understanding what a firm truly needs, what matters most to a candidate, and where the right long-term match exists.</p>
+          <p>I live in Pittsburgh with my wife—my high school crush—and our two little girls. That personal side of life shapes how I work: I value trust, consistency, and treating people the way I would want someone to treat my own family.</p>
+          <p>Whether you are quietly considering a move or building out an entire team, you will always get a direct, thoughtful conversation from me.</p>
+        </div>
+        <aside class="quote-card reveal">
+          <p>“The best recruiting relationships are built well before an offer is ever made.”</p>
+          <span>Lucas Leitenberger</span>
+        </aside>
+      </div>
     </section>
 
     <section class="section markets" id="markets">
-      <div class="section-heading split">
-        <div>
-          <p class="kicker">Our Core Markets</p>
-          <h2>Deep focus across Pennsylvania and Ohio.</h2>
+      <div class="section-heading reveal">
+        <p class="eyebrow">Pennsylvania + Ohio</p>
+        <h2>Deep market coverage across the region.</h2>
+        <p>We support all architecture, engineering, interior design, and leadership searches across every metro area we serve.</p>
+      </div>
+      <div class="market-layout">
+        <div class="state-card reveal">
+          <div class="state-label">PA</div>
+          <h3>Pennsylvania</h3>
+          <p>Pittsburgh · Philadelphia · Lancaster · Harrisburg · Erie · Statewide</p>
         </div>
-        <p>
-          Our strength comes from staying close to the firms, talent pools, leadership needs, and hiring patterns that shape
-          the Architecture & Engineering market across Pennsylvania and Ohio. We support all project types in every metro we serve.
-        </p>
+        <div class="connection-line" aria-hidden="true"></div>
+        <div class="state-card reveal">
+          <div class="state-label">OH</div>
+          <h3>Ohio</h3>
+          <p>Cleveland · Columbus · Cincinnati · Akron · Dayton · Statewide</p>
+        </div>
       </div>
-
-      <div class="state-grid">
-        <article class="state-card">
-          <div class="state-top">
-            <span class="state-code">PA</span>
-            <h3>Pennsylvania</h3>
-          </div>
-          <div class="city-grid">
-            <div><strong>Pittsburgh</strong><span>Architecture & Engineering recruiting across all project types and experience levels.</span></div>
-            <div><strong>Philadelphia</strong><span>Architecture & Engineering recruiting across all project types and experience levels.</span></div>
-            <div><strong>Lancaster</strong><span>Architecture & Engineering recruiting across all project types and experience levels.</span></div>
-            <div><strong>Harrisburg</strong><span>Architecture & Engineering recruiting across all project types and experience levels.</span></div>
-          </div>
-        </article>
-
-        <article class="state-card">
-          <div class="state-top">
-            <span class="state-code">OH</span>
-            <h3>Ohio</h3>
-          </div>
-          <div class="city-grid">
-            <div><strong>Columbus</strong><span>Architecture & Engineering recruiting across all project types and experience levels.</span></div>
-            <div><strong>Cleveland</strong><span>Architecture & Engineering recruiting across all project types and experience levels.</span></div>
-            <div><strong>Cincinnati</strong><span>Architecture & Engineering recruiting across all project types and experience levels.</span></div>
-            <div><strong>Statewide</strong><span>Architecture & Engineering recruiting throughout Ohio based on client and candidate needs.</span></div>
-          </div>
-        </article>
-      </div>
-
-      <div class="market-note">
-        <strong>Beyond PA and OH</strong>
-        <p>
-          While Pennsylvania and Ohio are our primary focus, we also support select national searches when a trusted client
-          or candidate relationship calls for it.
-        </p>
+      <div class="roles-grid reveal">
+        <span>Architects</span><span>Project Managers</span><span>Interior Designers</span><span>BIM Leaders</span><span>Engineers</span><span>Firm Leadership</span>
       </div>
     </section>
 
     <section class="section team" id="team">
-      <div class="section-heading centered">
-        <p class="kicker">Meet the Team</p>
-        <h2>Two people, one shared standard.</h2>
-        <p>
-          We stay close to every search, every candidate conversation, and every hiring decision.
-        </p>
+      <div class="team-photo reveal">
+        <img src="assets/lucas-vy.jpg" alt="Lucas Leitenberger and Vy Truong" onerror="this.closest('.team-photo').classList.add('missing-image')" />
+        <div class="photo-note">Add your photo together as <strong>assets/lucas-vy.jpg</strong></div>
       </div>
-
-      <div class="team-grid">
-        <article class="team-card">
-          <img src="assets/lucas-bw.jpg" alt="Lucas Leitenberger" />
-          <div class="team-card-copy">
-            <p class="role">Director, Architecture & Engineering</p>
-            <h3>Lucas Leitenberger</h3>
-            <p>
-              Lucas leads client development, market strategy, senior-level recruiting, and candidate closing across Pennsylvania and Ohio.
-              His approach is straightforward: understand the real need, communicate honestly, and stay involved through the final decision.
-            </p>
-            <a href="https://www.linkedin.com/" target="_blank" rel="noopener">Connect with Lucas</a>
-          </div>
-        </article>
-
-        <article class="team-card">
-          <img src="assets/vy-bw.jpg" alt="Vy Truong" />
-          <div class="team-card-copy">
-            <p class="role">Recruiter, Architecture & Engineering</p>
-            <h3>Vy Truong</h3>
-            <p>
-              Vy leads day-to-day recruiting across all of our markets, connecting with architects, engineers, interior designers,
-              project managers, and technical professionals. Her persistence, responsiveness, and candidate care are central to our success.
-            </p>
-            <a href="https://www.linkedin.com/in/vytrruong/" target="_blank" rel="noopener">Connect with Vy</a>
-          </div>
-        </article>
+      <div class="team-copy reveal">
+        <p class="eyebrow">Our team</p>
+        <h2>Lucas + Vy</h2>
+        <p>Vy Truong is my dedicated recruiting partner and supports talent searches throughout every market we cover. Together, we combine focused sourcing, market knowledge, and consistent follow-through to help firms find the right people—and help candidates find opportunities that genuinely fit.</p>
+        <a class="text-link" href="https://www.linkedin.com/in/vytrruong/" target="_blank" rel="noreferrer">Meet Vy on LinkedIn →</a>
       </div>
     </section>
 
-    <section class="section expertise" id="expertise">
-      <div class="section-heading split light">
-        <div>
-          <p class="kicker">What We Recruit</p>
-          <h2>Built around the Architecture & Engineering industry.</h2>
-        </div>
-        <p>
-          We understand the titles, project types, career paths, licensing requirements, and leadership needs that make this market different.
-        </p>
+    <section class="employer-band">
+      <div class="gk-logo" aria-label="Green Key Resources">
+        <span class="key-icon">◆</span>
+        <span><strong>GREEN KEY</strong><small>RESOURCES</small></span>
       </div>
-
-      <div class="expertise-grid">
-        <article><span>01</span><h3>Architecture</h3><p>Architects, project architects, project managers, senior leaders, technical directors, BIM professionals, and designers.</p></article>
-        <article><span>02</span><h3>Engineering</h3><p>Mechanical, electrical, structural, civil, and multidisciplinary engineering professionals from EIT through PE leadership.</p></article>
-        <article><span>03</span><h3>Interior Design</h3><p>Interior designers, senior designers, project managers, studio leaders, and NCIDQ professionals.</p></article>
-        <article><span>04</span><h3>Specialized Talent</h3><p>Landscape architecture, visualization, marketing, firm operations, and other hard-to-find roles within the built environment.</p></article>
+      <div>
+        <p class="eyebrow">Our employer</p>
+        <h2>Proud to represent Green Key Resources.</h2>
+        <p>Lucas and Vy are part of Green Key Resources, a national recruiting firm connecting talented people with outstanding organizations.</p>
       </div>
-
-      <div class="project-types">
-        <span>Healthcare</span><span>K-12</span><span>Higher Education</span><span>Commercial</span><span>Workplace</span>
-        <span>Industrial</span><span>Science + Technology</span><span>Multifamily</span><span>Senior Living</span>
-        <span>Civic</span><span>Aviation</span><span>Transportation</span>
-      </div>
+      <a class="button light" href="https://greenkeyllc.com/" target="_blank" rel="noreferrer">Visit Green Key</a>
     </section>
 
-    <section class="section green-key" id="green-key">
-      <div class="green-key-card">
-        <div class="green-key-logo-panel">
-          <img src="assets/green-key-logo.jpg" alt="Green Key Resources logo" />
-        </div>
-        <div class="green-key-copy">
-          <p class="kicker">Our Company</p>
-          <h2>Proud to represent Green Key Resources.</h2>
-          <p>
-            Vy and I are part of the Architecture & Engineering practice at Green Key Resources. Green Key is our employer,
-            our platform, and the company we represent in every client and candidate relationship.
-          </p>
-          <p>
-            The company gives us the resources, technology, national network, and support to operate at a high level while
-            still delivering the personal, hands-on recruiting experience our markets expect.
-          </p>
-          <a class="button green" href="https://greenkeyllc.com/" target="_blank" rel="noopener">Visit Green Key Resources</a>
-        </div>
+    <section class="section contact" id="contact">
+      <div class="contact-card reveal">
+        <p class="eyebrow">Let’s connect</p>
+        <h2>Ready for a better conversation about your next hire—or next move?</h2>
+        <p>Reach out directly. Every conversation is confidential, straightforward, and pressure-free.</p>
+        <a class="button primary email-link" href="mailto:YOUR_EMAIL_HERE">Email Lucas</a>
+        <a class="text-link" href="https://www.linkedin.com/in/lucas-leitenberger/" target="_blank" rel="noreferrer">Connect on LinkedIn →</a>
       </div>
     </section>
-
-    <section class="section philosophy">
-      <div class="philosophy-grid">
-        <div class="philosophy-copy">
-          <p class="kicker">How We Work</p>
-          <h2>Good recruiting should feel personal.</h2>
-          <p>
-            We do not believe in forcing a fit. The best placements happen when the firm, the role, the compensation,
-            the leadership, and the candidate’s life all make sense together.
-          </p>
-          <p>
-            That means asking better questions, sharing honest feedback, staying responsive, and being willing to say when
-            something is not right. That standard has helped us build lasting relationships throughout our markets.
-          </p>
-        </div>
-        <div class="principles">
-          <div><strong>01</strong><span>Know the market</span></div>
-          <div><strong>02</strong><span>Tell the truth</span></div>
-          <div><strong>03</strong><span>Stay involved</span></div>
-          <div><strong>04</strong><span>Think long term</span></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section personal">
-      <div class="personal-image">
-        <img src="assets/family-bw.jpg" alt="Lucas Leitenberger with his family" />
-      </div>
-      <div class="personal-copy">
-        <p class="kicker">Beyond Recruiting</p>
-        <h2>Pittsburgh is home.</h2>
-        <p>
-          I am married to my high school crush, and together we are raising our two little girls in the Pittsburgh area.
-          Family is at the center of my life and has shaped the patience, perspective, and long-term mindset I bring to my work.
-        </p>
-        <p>
-          Recruiting is personal because career decisions are personal. They affect families, routines, confidence, and the future.
-          I never lose sight of that.
-        </p>
-      </div>
-    </section>
-<section class="contact" id="contact">
-
-    <p class="kicker">Let's Connect</p>
-
-    <h2>Whether you're hiring or considering your next move, I'd love to talk.</h2>
-
-    <p>
-        Architecture & Engineering Recruiting<br>
-        Pittsburgh, Pennsylvania
-    </p>
-
-    <p class="contact-info">
-
-        <strong>Email</strong><br>
-
-        <a href="LLeitenberger@greenkeyllc.com">
-            YOUR-EMAIL@greenkeyllc.com
-        </a>
-
-    </p>
-
-    <div class="contact-buttons">
-
-        <a class="button light-button"
-           href="LLeitenberger@greenkeyllc.com">
-            Email Lucas
-        </a>
-
-        <a class="button outline-button"
-           href="https://www.linkedin.com/in/lucas-leitenberger/>
-   href=">
-            Connect on LinkedIn
-        </a>
-
-    </div>
-
-</section>
-   
   </main>
 
   <footer>
-    <div>
-      <strong>Lucas Leitenberger</strong>
-      <span>Architecture & Engineering Recruiting</span>
-    </div>
-    <div>
-      <span>Green Key Resources</span>
-      <span>© <span id="year"></span></span>
-    </div>
+    <span>© <span id="year"></span> Lucas Leitenberger</span>
+    <span>Architecture & Engineering Recruiting · Pennsylvania + Ohio</span>
   </footer>
-
   <script src="script.js"></script>
 </body>
 </html>
-.contact-info {
-    margin-top: 30px;
-    font-size: 1.05rem;
-}
-
-.contact-info a {
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.contact-info a:hover {
-    text-decoration: underline;
-}

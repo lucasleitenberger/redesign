@@ -1,16 +1,16 @@
-const menuButton = document.querySelector('.menu-button');
-const nav = document.querySelector('.nav');
+// Replace this with your real email address once, then every email button works.
+const EMAIL = "YOUR_EMAIL_HERE";
 
-menuButton?.addEventListener('click', () => {
-  const open = nav.classList.toggle('open');
-  menuButton.setAttribute('aria-expanded', String(open));
+document.querySelectorAll(".email-link").forEach((link) => {
+  link.href = `mailto:${EMAIL}`;
 });
 
-document.querySelectorAll('.nav a').forEach(link => {
-  link.addEventListener('click', () => {
-    nav.classList.remove('open');
-    menuButton?.setAttribute('aria-expanded', 'false');
+document.getElementById("year").textContent = new Date().getFullYear();
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) entry.target.classList.add("visible");
   });
-});
+}, { threshold: 0.12 });
 
-document.getElementById('year').textContent = new Date().getFullYear();
+document.querySelectorAll(".reveal").forEach((item) => observer.observe(item));
