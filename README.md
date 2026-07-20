@@ -1,24 +1,27 @@
-# Lucas Leitenberger Website — Final Version
+# Lucas Leitenberger Website Redesign
 
-This version includes:
+A static personal recruiting website ready for GitHub and Netlify.
 
-- Lucas Leitenberger and Vy Truong team profiles
-- Vy's professional photo
-- Green Key Resources logo
-- Link to the official Green Key Resources website
-- Link to Green Key's Architecture, Engineering & Construction practice
-- Pennsylvania and Ohio market coverage
-- Nationwide recruiting reach
-- Correct business email and LinkedIn links
+## Upload to GitHub
 
-## Publish
+1. Open your `redesign` repository.
+2. Upload every file and the `assets` folder from this package.
+3. Replace the existing files when GitHub asks.
+4. Commit the changes.
 
-1. Extract this ZIP.
-2. Open `github.com/lucasleitenberger/redesign`.
-3. Select **Add file → Upload files**.
-4. Upload everything inside the extracted folder.
-5. Allow GitHub to replace the existing files.
-6. Select **Commit changes**.
-7. Netlify will update automatically.
+Netlify should redeploy automatically if the repository is already connected.
 
-Only upload these files to GitHub. Do not upload them separately to Netlify.
+## Included
+
+- `index.html` — all website content and sections
+- `styles.css` — responsive design and layout
+- `script.js` — mobile menu, motion, and automatic copyright year
+- `assets/lucas-family.jpg` — family photo used in the About section
+- `netlify.toml` — Netlify deployment settings
+
+## Before publishing
+
+- Confirm Lucas's LinkedIn URL in `index.html`.
+- Confirm the Green Key Resources URL.
+- Netlify Forms will collect contact form submissions once deployed through Netlify.
+- Add a custom professional headshot later by replacing a monogram card or adding another image section.
