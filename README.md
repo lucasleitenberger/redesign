@@ -1,30 +1,33 @@
-# Corrected Lucas Leitenberger Website
+# Lucas Leitenberger Website — Final Repository Package
 
-This package already includes the real uploaded images:
+This version includes:
 
-- Lucas headshot
-- Vy headshot
-- Lucas family photo
-- Green Key Resources logo
-
-There are no placeholder image files in this version.
+- Stronger Pennsylvania and Ohio market coverage
+- Dedicated city sections for Pittsburgh, Philadelphia, Lancaster, Harrisburg, Columbus, Cleveland, and Cincinnati
+- Black-and-white Lucas, Vy, and family photography
+- Green Key Resources clearly positioned as Lucas and Vy's employer
+- Mobile-friendly design
+- No placeholder images
 
 ## Before uploading
 
 Open `index.html` and replace:
 
-- `YOUR-EMAIL@greenkeyllc.com` with Lucas's actual email
-- The generic Lucas LinkedIn URLs with Lucas's direct LinkedIn profile URL
+- `YOUR-EMAIL@greenkeyllc.com` with Lucas's actual Green Key email
+- The generic Lucas LinkedIn links (`https://www.linkedin.com/`) with Lucas's direct LinkedIn profile URL
 
-## GitHub upload
+Vy's LinkedIn URL and Green Key's website are already included.
 
-Delete the old website files from the repository, then upload:
+## Upload to GitHub
 
-- `index.html`
-- `styles.css`
-- `script.js`
-- the complete `assets` folder
+1. Delete the old site files from the repository.
+2. Extract this ZIP.
+3. Upload these items to the repository root:
+   - `index.html`
+   - `styles.css`
+   - `script.js`
+   - the entire `assets` folder
+4. Commit the changes.
+5. Netlify should redeploy automatically.
 
-Commit the changes. Netlify should redeploy automatically.
-
-The design uses the individual Lucas and Vy portraits together because a separate photo of Lucas and Vy together was not included in the uploads.
+Do not upload the ZIP itself into the repository.
