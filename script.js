@@ -1,5 +1,5 @@
 // Replace this with your real email address once, then every email button works.
-const EMAIL = "LLeitenberger@greenkeyllc.com";
+const EMAIL = "YOUR_EMAIL_HERE";
 
 document.querySelectorAll(".email-link").forEach((link) => {
   link.href = `mailto:${EMAIL}`;

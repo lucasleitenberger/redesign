@@ -1,19 +1,26 @@
-UPLOAD INSTRUCTIONS
+LUCAS WEBSITE — READY FOR GITHUB PAGES
 
-1. Open your GitHub repository: lucasleitenberger/redesign
-2. Click the Code tab.
-3. Delete or replace the old website files in the ROOT of the repository.
-4. Upload these items directly into the ROOT:
-   - index.html
-   - styles.css
-   - script.js
-   - assets folder
-5. Inside the assets folder, add your photos using these EXACT names:
-   - lucas-portrait.jpg
-   - lucas-vy.jpg
-6. Open script.js and replace YOUR_EMAIL_HERE with your real email address.
-7. Click Commit changes.
-8. GitHub Pages will automatically update from the main branch.
+Upload the CONTENTS of this folder directly into the main/root level of your GitHub repository.
 
-IMPORTANT
-Do not upload the outer folder itself. The index.html file must be visible immediately when you open the repository.
+You should see these items in the repository:
+- index.html
+- styles.css
+- script.js
+- assets folder
+
+The assets folder already includes:
+- lucas-family.jpg
+- vy-truong.jpg
+- green-key-logo.jpg
+- green-key-square.jpg
+
+Do not rename the image files. The website code is already connected to them.
+
+To upload:
+1. Open github.com/lucasleitenberger/redesign
+2. Click Add file, then Upload files.
+3. Drag in index.html, styles.css, script.js, README.txt, and the assets folder.
+4. Select Replace files when GitHub warns that files already exist.
+5. Click Commit changes.
+
+Your GitHub Pages website will update automatically after the commit.
