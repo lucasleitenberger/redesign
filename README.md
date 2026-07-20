@@ -1,27 +1,35 @@
 # Lucas Leitenberger Website Redesign
 
-A static personal recruiting website ready for GitHub and Netlify.
+## Before uploading to GitHub
 
-## Upload to GitHub
+Place your actual images in the `assets` folder using these exact filenames:
 
-1. Open your `redesign` repository.
-2. Upload every file and the `assets` folder from this package.
-3. Replace the existing files when GitHub asks.
-4. Commit the changes.
+- `lucas-vy.jpg` — the photo of Lucas and Vy together
+- `lucas.jpg` — Lucas's individual photo
+- `vy.jpg` — Vy's individual photo
+- `green-key-logo.png` — the official Green Key Resources logo
+- `family.jpg` — Lucas's family photo
 
-Netlify should redeploy automatically if the repository is already connected.
+The included placeholder files make it easy to see which images are still needed.
 
-## Included
+## Two details to update in `index.html`
 
-- `index.html` — all website content and sections
-- `styles.css` — responsive design and layout
-- `script.js` — mobile menu, motion, and automatic copyright year
-- `assets/lucas-family.jpg` — family photo used in the About section
-- `netlify.toml` — Netlify deployment settings
+Search for:
 
-## Before publishing
+1. `YOUR-EMAIL@greenkeyllc.com` and replace it with Lucas's actual Green Key email.
+2. The generic Lucas LinkedIn links (`https://www.linkedin.com/`) and replace them with Lucas's direct profile URL.
 
-- Confirm Lucas's LinkedIn URL in `index.html`.
-- Confirm the Green Key Resources URL.
-- Netlify Forms will collect contact form submissions once deployed through Netlify.
-- Add a custom professional headshot later by replacing a monogram card or adding another image section.
+Vy's LinkedIn link is already included.
+
+## Uploading to the repository
+
+Upload all of these items to the root of the GitHub repository:
+
+- `index.html`
+- `styles.css`
+- `script.js`
+- the entire `assets` folder
+
+Do not upload the ZIP file into the repository. Extract it first, then upload the files and folder.
+
+Netlify should automatically redeploy after the GitHub commit is completed.
