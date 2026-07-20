@@ -3,7 +3,7 @@
 This version includes:
 
 - Stronger Pennsylvania and Ohio market coverage
-- Dedicated city sections for Pittsburgh, Philadelphia, Lancaster, Harrisburg, Columbus, Cleveland, and Cincinnati
+- Dedicated city sections for Pittsburgh, Philadelphia, Lancaster, Harrisburg, Columbus, Cleveland, and Cincinnati, with all project types supported in every market
 - Black-and-white Lucas, Vy, and family photography
 - Green Key Resources clearly positioned as Lucas and Vy's employer
 - Mobile-friendly design
