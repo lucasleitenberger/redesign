@@ -1,16 +1,31 @@
-// Replace this with your real email address once, then every email button works.
-const EMAIL = "YOUR_EMAIL_HERE";
+const header = document.querySelector('.site-header');
+const toggle = document.querySelector('.nav-toggle');
+const nav = document.querySelector('.main-nav');
 
-document.querySelectorAll(".email-link").forEach((link) => {
-  link.href = `mailto:${EMAIL}`;
+window.addEventListener('scroll', () => {
+  header.classList.toggle('scrolled', window.scrollY > 10);
 });
 
-document.getElementById("year").textContent = new Date().getFullYear();
+toggle.addEventListener('click', () => {
+  const isOpen = nav.classList.toggle('open');
+  toggle.setAttribute('aria-expanded', isOpen);
+});
+
+nav.querySelectorAll('a').forEach((link) => {
+  link.addEventListener('click', () => {
+    nav.classList.remove('open');
+    toggle.setAttribute('aria-expanded', 'false');
+  });
+});
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
-    if (entry.isIntersecting) entry.target.classList.add("visible");
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      observer.unobserve(entry.target);
+    }
   });
-}, { threshold: 0.12 });
+}, { threshold: 0.14 });
 
-document.querySelectorAll(".reveal").forEach((item) => observer.observe(item));
+document.querySelectorAll('.reveal').forEach((element) => observer.observe(element));
+document.getElementById('year').textContent = new Date().getFullYear();

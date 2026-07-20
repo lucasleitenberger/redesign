@@ -1,33 +1,22 @@
-# Lucas Leitenberger Website — Final Repository Package
+# Lucas Leitenberger Recruiting Website
 
-This version includes:
+## Upload to GitHub Pages
 
-- Stronger Pennsylvania and Ohio market coverage
-- Dedicated city sections for Pittsburgh, Philadelphia, Lancaster, Harrisburg, Columbus, Cleveland, and Cincinnati, with all project types supported in every market
-- Black-and-white Lucas, Vy, and family photography
-- Green Key Resources clearly positioned as Lucas and Vy's employer
-- Mobile-friendly design
-- No placeholder images
+1. Open your GitHub repository.
+2. Upload everything inside this folder to the main/root level of the repository.
+3. Make sure `index.html` is visible at the top level, not inside another folder.
+4. Open `index.html` in GitHub and replace `YOUR_EMAIL_HERE` with your real email address.
+5. Commit the changes.
+6. In GitHub, open **Settings → Pages**.
+7. Under **Build and deployment**, choose **Deploy from a branch**.
+8. Select your main branch and the `/root` folder, then save.
 
-## Before uploading
+## Included files
 
-Open `index.html` and replace:
-
-- `YOUR-EMAIL@greenkeyllc.com` with Lucas's actual Green Key email
-- The generic Lucas LinkedIn links (`https://www.linkedin.com/`) with Lucas's direct LinkedIn profile URL
-
-Vy's LinkedIn URL and Green Key's website are already included.
-
-## Upload to GitHub
-
-1. Delete the old site files from the repository.
-2. Extract this ZIP.
-3. Upload these items to the repository root:
-   - `index.html`
-   - `styles.css`
-   - `script.js`
-   - the entire `assets` folder
-4. Commit the changes.
-5. Netlify should redeploy automatically.
-
-Do not upload the ZIP itself into the repository.
+- `index.html`
+- `styles.css`
+- `script.js`
+- `assets/lucas-headshot.jpg`
+- `assets/lucas-family.jpg`
+- `assets/vy-truong.jpg`
+- `assets/green-key-resources-logo.jpg`
